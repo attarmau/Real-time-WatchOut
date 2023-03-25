@@ -4,4 +4,5 @@ from datatime import datatime
 import csv
 service_uuid = '1822'
 address = 'd6:7c:c2:48:4e:06'
-p = btle.Peripheral
+p = btle.Peripheral(address, btle.ADDR_TYPE_RANDOM)
+p.setDelegate(MyDelegate())
