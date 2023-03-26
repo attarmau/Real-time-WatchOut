@@ -25,3 +25,6 @@ for a Char in data:
 SpO2 = hex[2]
 HR = hex[4]
 localtime = datatime.now().strftime( '%Y-%m-%d%H:%M:%S' )
+print(localtime)
+print('Your Realtime SpO2:', SpO2)
+print('Your Realtime: ', HR)
