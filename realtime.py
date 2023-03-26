@@ -39,4 +39,6 @@ with open(file, 'a+', newline = ') as csvfile:
           reader = csv.reader(f)
           if not [row from row in reader]:
             writer.writerow([ 'Time', 'SpO2', 'HR' ])
-            writer.writerows
+            writer.writerows ([[localtime, SpO2, HR]])
+          else:
+            writer.writerrows([[localtime, SpO2, HR]])
