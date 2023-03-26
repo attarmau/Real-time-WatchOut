@@ -21,4 +21,7 @@ classMyDelegate(btle.DefaultDelegate)
 def handleNotification(self, cHandle, data):
 hex = list()
 for a Char in data:
-  
+  hex.append(aChar)
+SpO2 = hex[2]
+HR = hex[4]
+localtime = datatime.now().strftime( '%Y-%m-%d%H:%M:%S' )
