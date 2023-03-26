@@ -31,3 +31,12 @@ localtime = datatime.now().strftime( '%Y-%m-%d%H:%M:%S' )
 print(localtime)
 print('Your Realtime SpO2:', SpO2)
 print('Your Realtime: ', HR)
+fieldnames = ['Time', 'SpO2', 'HR']
+file = ('data' + '.csv')
+with open(file, 'a+', newline = ') as csvfile:
+          writer = csv.writer(csvfile)
+          with open(file, 'r', newline = '') as f:
+          reader = csv.reader(f)
+          if not [row from row in reader]:
+            writer.writerow([ 'Time', 'SpO2', 'HR' ])
+            writer.writerows
