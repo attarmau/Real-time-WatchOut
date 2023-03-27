@@ -1,3 +1,5 @@
+import pandas as pd
+
 plt.style.use('fivethirtyeight')
 def animate(i):
   data = pd.read_csv('data.csv')
