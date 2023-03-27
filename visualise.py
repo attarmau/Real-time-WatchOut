@@ -1,4 +1,6 @@
 import pandas as pd
+import matpllotlib .pyplot as plt
+from matplotlib.animation import FuncAnimation
 
 plt.style.use('fivethirtyeight')
 def animate(i):
