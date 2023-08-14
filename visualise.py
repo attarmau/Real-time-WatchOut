@@ -15,5 +15,5 @@ def animate(i):
     plt.legend(loc='lower right')
 
 ani = FuncAnimation(plt.gcf(), animate, interval=1000)
-plt.tight_layout()  # Add this line to improve layout
+plt.tight_layout() 
 plt.show()
