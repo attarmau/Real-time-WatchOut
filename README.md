@@ -1,4 +1,4 @@
-# HealthWatch
+# Real-Time Blood Pressure Visualisation Dashboard
 Data Visualization from Raspberry Pi to visualize real-time physiological data monitoring from medical device.
 Demo: https://youtu.be/9JTnckDZeOA
 
